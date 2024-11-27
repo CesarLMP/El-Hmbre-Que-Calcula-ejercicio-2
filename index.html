@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculador de Reparto de Camellos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculador de Reparto de Camellos</h1>
+        <p>Beremiz se encuentra con tres hermanos que necesitan repartir 35 camellos según las proporciones indicadas en el testamento de su padre:</p>
+        <ul>
+            <li>El primer hermano debe recibir 1/2 del total.</li>
+            <li>El segundo, 1/3 del total.</li>
+            <li>El tercero, 1/9 del total.</li>
+        </ul>
+
+        <div class="form-group">
+            <label for="camellos">Número de Camellos:</label>
+            <input type="number" id="camellos" min="1" required>
+        </div>
+        <button onclick="calcularReparto()">Calcular Reparto</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
